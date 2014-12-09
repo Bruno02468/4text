@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule bread/(.*) view.php?id=$1

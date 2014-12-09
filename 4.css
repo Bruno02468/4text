@@ -1,0 +1,55 @@
+form  { display: table;       }
+p     { display: table-row;   }
+label { display: table-cell;  }
+input { display: table-cell;  }
+
+body {
+    overflow-x: hidden;
+}
+
+.greentext {
+    color: #789922;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    width: 175px;
+    height: auto;
+}
+
+.post {
+    vertical-align: top;
+    min-width: 10%;
+    width: 75%;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: top;
+    background-color: #282926;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.op {
+    min-width: 10%;
+    max-width: 75%;
+    -moz-border-radius: 1em 1em 1em 1em;
+    border-radius: 1em 1em 1em 1em;
+    vertical-align: top;
+    padding: 20px;
+    background: inherit;
+}
+
+#bannerBox {
+    margin: 10px;
+    padding: 4px;
+    background: #222; 
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+
