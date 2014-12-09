@@ -6,6 +6,8 @@
    via the form in view.php. Modifications here
    will only apply to posts sent after the modification.
    For formatting, use format.php.
+   
+   Author: Bruno02468
 
  */
 
