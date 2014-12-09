@@ -1,2 +1,4 @@
+# This is the file that makes the redirection rules.
+# Do not modify.
 RewriteEngine on
 RewriteRule bread/(.*) view.php?id=$1
