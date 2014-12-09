@@ -1,5 +1,14 @@
 <?php
 
+/* ===add_answer.php===
+   
+   This file is called to add answers to threads
+   via the form in view.php. Modifications here
+   will only apply to posts sent after the modification.
+   For formatting, use format.php.
+
+ */
+
 $id = $_POST["id"];
 $content = $_POST["text"];
 $imgurl = $_POST["url"];
