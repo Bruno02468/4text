@@ -1,5 +1,15 @@
 <?php
 
+/* ===view.php===
+   
+   This is the file used in /bread/[id]
+   pages, to view threads and add answers.
+   Uses: format.php, img.php.
+   
+   Author: Bruno02468
+
+ */
+
 include("format.php");
 
 $id = $_GET["id"];
