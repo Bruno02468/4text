@@ -1,5 +1,14 @@
 <?php
 
+/* ==add_thread.php===
+
+   This file is called by the thread
+   form to add new threads.
+   
+   Author: Bruno02468
+ */
+
+
 $content = $_POST["text"];
 $imgurl = $_POST["url"];
 
