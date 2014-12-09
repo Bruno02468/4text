@@ -1,10 +1,24 @@
-form  { display: table;       }
-p     { display: table-row;   }
-label { display: table-cell;  }
-input { display: table-cell;  }
+form { 
+	  display: table;
+}
+p {
+ 	 display: table-row;
+}
+label { 
+	display: table-cell;  
+ 	color: #222;
+}
+input { 
+  	display: table-cell;
+ 	border: 0px solid black;
+}
 
 body {
     overflow-x: hidden;
+  	background-color: #fff;
+  	color: #111;
+  	margin: 0px;
+  	padding: 0px;
 }
 
 .greentext {
@@ -20,18 +34,20 @@ body {
 }
 
 .post {
-    vertical-align: top;
+  	vertical-align: left;
     min-width: 10%;
     width: 75%;
     -moz-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 0px;
     vertical-align: top;
-    background-color: #282926;
-    padding: 10px;
+    background-color: #efe;
+    padding: 15px;
     position: relative;
     left: 30px;
-    margin: 3px;
+    margin: 5px;
     display: inline-block;
+  	color: #111;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px;
 }
 
 .op {
@@ -42,14 +58,44 @@ body {
     vertical-align: top;
     padding: 20px;
     background: inherit;
+  	color: #111;
+  	border-radius: 0px;
 }
 
 #bannerBox {
-    margin: 10px;
-    padding: 4px;
-    background: #222; 
-    border-radius: 5px;
-    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    background: #eee; 
+    border-radius: 0px;
+    border: 0px solid #111;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
+div {
+	color: #222;
+}
+small {
+	color: #222;
+}
+a {
+	color: #222;
+}
+b {
+	color: #222;
+}
+span {
+	color: #222;
+}
+hr {
+	height: 12px;
+  	border: 0px solid black;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+.mono {
+ 	font-size: 22px; 
+    text-decoration: none;
+    padding:10px;
+    background: #efe;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px;
 
+    
+  }
