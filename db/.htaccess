@@ -1,3 +1,6 @@
+# Only allows the host to access the database.
+# Do not modify.
+
 Order deny,allow
 Allow from 192.168.25.114
 Allow from 127.0.0.1
