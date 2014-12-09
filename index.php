@@ -1,5 +1,17 @@
 <?php
 
+/* ===index.php===
+
+   This is the main page, it lists threads,
+   contains a thread form, and shows the banners
+   speficied through img.php.
+   Uses: img.php, format.php.
+   
+   Author: Bruno02468
+
+ */
+
+
 include("format.php");
 
 $arrDIR = array(); 
