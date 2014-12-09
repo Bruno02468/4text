@@ -79,9 +79,9 @@ if (isset($_GET["notfound"])) {
 <center>
 <div id="bannerBox">
     <p style="font-family: Arial;">
-    <b style="color: #D1FFD6; font-size: 200%; ">SpookyBoard</b><br><br>
-    <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br>
-    <b style="color: red; font-size: 110%; ">Please leave your sanity in a safe place.</b>
+    <b style="color: #222; font-size: 200%; ">SpookyBoard</b><br><br>
+    <b style="color: #797; font-size: 110%; ">Please leave your sanity in a safe place.</b>
+    <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br><br><br><br>
     </p> 
 </div>
 <small><a class="mono" href="javascript: toggleForm();" id="togg">Create a thread</a></small><br><br>
