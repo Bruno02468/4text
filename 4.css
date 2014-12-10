@@ -1,24 +1,26 @@
 form { 
-	  display: table;
+    display: table;
 }
+
 p {
- 	 display: table-row;
+    display: table-row;
 }
+
 label { 
-	display: table-cell;  
- 	color: #efe;
+    display: table-cell;  
+    color: #efe;
 }
+
 input { 
-  	display: table-cell;
- 	border: 0px solid black;
+    display: table-cell;
+    border: 0px solid black;
 }
 
 body {
     overflow-x: hidden;
-  	background-color: #222;
-  	color: #efe;
-  	margin: 0px;
-  	padding: 0px;
+    background-color: #222;
+    margin: 0px;
+    padding: 0px;
 }
 
 .greentext {
@@ -34,7 +36,7 @@ body {
 }
 
 .post {
-  	vertical-align: left;
+    vertical-align: left;
     min-width: 10%;
     width: 75%;
     -moz-border-radius: 3px;
@@ -46,7 +48,6 @@ body {
     left: 30px;
     margin: 5px;
     display: inline-block;
-  	color: #111;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px;
 }
 
@@ -58,8 +59,7 @@ body {
     vertical-align: top;
     padding: 20px;
     background: inherit;
-  	color: #111;
-  	border-radius: 0px;
+    border-radius: 0px;
 }
 
 #bannerBox {
@@ -70,24 +70,10 @@ body {
     border: 0px solid #111;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
-div {
-	color: #efe;
-}
-small {
-	color: #efe;
-}
-a {
-	color: #efe;
-}
-b {
-	color: #efe;
-}
-span {
-	color: #efe;
-}
+
 hr {
-	height: 12px;
-  	border: 0px solid black;
+    height: 12px;
+    border: 0px solid black;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
 .mono {
@@ -96,5 +82,4 @@ hr {
     padding:10px;
     background: #333;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px;
-   
   }
