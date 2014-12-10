@@ -60,7 +60,7 @@ for ($i = 0; $i < count($file); $i++) {
 <center>
 <div id="bannerBox">
     <p style="font-family: Arial;">
-    <b style="color: #D1FFD6; font-size: 200%; ">SpookyBoard</b><br><br>
+    <b style="color: #D1FFD6; font-size: 200%; "><a href="/4text/">SpookyBoard</a></b><br><br>
     <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br>
     <b style="color: red; font-size: 110%; ">Please leave your sanity in a safe place.</b>
     </p> 
