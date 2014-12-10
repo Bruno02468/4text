@@ -77,8 +77,11 @@ if (isset($_GET["notfound"])) {
 
 <body>
 <center>
+<div>
+    <center>&nbsp;</center>
+</div>
 <div id="bannerBox">
-    <p style="font-family: Arial;">
+    <p style="font-family: Arial;"><br>
     <b style="color: #D1FFD6; font-size: 200%; ">SpookyBoard</b><br><br>
     <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br>
     <b style="color: red; font-size: 110%; ">Please leave your sanity in a safe place.</b>
@@ -94,6 +97,9 @@ if (isset($_GET["notfound"])) {
 </form>
 </center>
 <?php echo $lasts; ?>
+<div>
+    <center><hr>&nbsp;</center>
+</div>
 <script>
 
 var form = $("#newt");

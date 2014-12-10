@@ -38,7 +38,8 @@ body {
 .post {
     vertical-align: left;
     min-width: 10%;
-    width: 75%;
+    max-width: 75%;
+    width: 500px;
     -moz-border-radius: 3px;
     border-radius: 0px;
     vertical-align: top;
@@ -49,17 +50,20 @@ body {
     margin: 5px;
     display: inline-block;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px;
+    white-space: nowrap;
 }
 
 .op {
     min-width: 10%;
     max-width: 75%;
-    -moz-border-radius: 1em 1em 1em 1em;
+    width: 700px;
+   -moz-border-radius: 1em 1em 1em 1em;
     border-radius: 1em 1em 1em 1em;
     vertical-align: top;
     padding: 20px;
     background: inherit;
     border-radius: 0px;
+    display: inline-block;
 }
 
 #bannerBox {
