@@ -18,7 +18,7 @@ function format($str) {
     $postlinks = "/(--(\d*)(<br>)*)/";
     $postrepls = "<a href=\"#p$2\">--$2</a>$3";
 
-    $greentext = '/(&gt;[^<br>]*)/';
+    $greentext = '/(&gt;[^<>]*)/';
     $greenrepl = '<span class="greentext">$1</span>';
 
     $str = preg_replace($threadlinks, $threadrepls, $str);
