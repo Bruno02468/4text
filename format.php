@@ -12,11 +12,11 @@
  */
 
 function format($str) {
-    $threadlinks = "/(==(\d*)(<br>)*)/";
-    $threadrepls = "<a href='http://bruno02468.com/4text/bread/$2'>==$2</a>$3";
+    $threadlinks = "/(&gt;&gt;&gt;(\d*)(<br>)*)/";
+    $threadrepls = "<a href='http://bruno02468.com/4text/bread/$2'>>>>$2</a>$3";
 
-    $postlinks = "/(--(\d*)(<br>)*)/";
-    $postrepls = "<a href=\"#p$2\">--$2</a>$3";
+    $postlinks = "/(&gt;&gt;(\d*)(<br>)*)/";
+    $postrepls = "<a href=\"#p$2\">>>$2</a>$3";
 
     $greentext = '/(<br>)+(&gt;[^<>]*)/';
     $greenrepl = '$1<span class="greentext">$2</span>';

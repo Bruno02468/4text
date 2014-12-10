@@ -15,4 +15,6 @@ In order to run a local version, you'll need:
 
 &nbsp; &nbsp; ─ To fix the links and the rewrite rules, if necessary
 
+&nbsp; &nbsp; ─ When done, run zero.sh, the instructions are inside the file.
+
 This project is licensed under the GNU GPL v3.0.
