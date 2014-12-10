@@ -65,12 +65,14 @@ for ($i = 0; $i < count($file); $i++) {
     <b style="color: red; font-size: 110%; ">Please leave your sanity in a safe place.</b>
     </p> 
 </div>
+<br>
+<br>
 <small><a class="mono" href="javascript: toggleForm();" id="togg">Reply to thread</a></small><br><br>
 <form id="newt" action="http://bruno02468.com/4text/add_answer.php" method="POST" style="vertical-align: middle;">
     <p><label for="url">Embedded image URL:</label><input type="text" name="url" id="url"></p>
     <p><label for="text">Answer contents:</label><textarea name="text" id="text" style="vertical-align: middle;"></textarea></p>
     <input type="hidden" name="id" value="<?php echo $id; ?>">
-    <input type="submit" value="Submit answer">
+    <p><label for="sub"></label><input type="submit" value="Submit answer"></p>
 </form><br><hr><br><br>
 </center>
 <div class="op"><?php echo $img; ?><div><b><?php echo $title; ?></b>
