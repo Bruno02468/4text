@@ -64,9 +64,8 @@ for ($i = 0; $i < count($file); $i++) {
     <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br>
     <b style="color: red; font-size: 110%; ">Please leave your sanity in a safe place.</b>
     </p> 
+    <br>
 </div>
-<br>
-<br>
 <small><a class="mono" href="javascript: toggleForm();" id="togg">Reply to thread</a></small><br><br>
 <form id="newt" action="http://bruno02468.com/4text/add_answer.php" method="POST" style="vertical-align: middle;">
     <p><label for="url">Embedded image URL:</label><input type="text" name="url" id="url"></p>
