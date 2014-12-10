@@ -74,7 +74,7 @@ for ($i = 0; $i < count($file); $i++) {
     <p><label for="sub"></label><input type="submit" value="Submit answer"></p>
 </form><br><hr><br><br>
 </center>
-<div class="op"><?php echo $img; ?><div><b><?php echo $title; ?></b>
+<div class="op" id="p<?php echo $id; ?>"><?php echo $img; ?><div><b><?php echo $title; ?></b>
 <small><?php echo $date; ?> No. <a href="javascript: reply(<?php echo $id; ?>);"><?php echo $id; ?></a></small></div>
 <br><?php echo $contents; ?>
 </div>
