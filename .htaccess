@@ -2,3 +2,5 @@
 # Do not modify.
 RewriteEngine on
 RewriteRule bread/(.*) view.php?id=$1
+
+Deny from 84.104.123.232
