@@ -3,4 +3,6 @@
 RewriteEngine on
 RewriteRule bread/(.*) view.php?id=$1
 
-Deny from 84.104.123.232
+ErrorDocument 403 err/403.html
+
+#Deny from 84.104.123.232
