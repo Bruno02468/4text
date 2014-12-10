@@ -79,7 +79,7 @@ if (isset($_GET["notfound"])) {
 <center>
 <div id="bannerBox">
     <p style="font-family: Arial;">
-    <b style="color: #222; font-size: 200%; ">SpookyBoard</b><br><br>
+    <b style="color: #efe; font-size: 200%; ">SpookyBoard</b><br><br>
     <b style="color: #797; font-size: 110%; ">Please leave your sanity in a safe place.</b><br>
     <?php echo file_get_contents("http://bruno02468.com/4text/img.php"); ?></object><br><br><br><br><br>
     </p> 
