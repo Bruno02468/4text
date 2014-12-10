@@ -1,11 +1,18 @@
 4text
-=====
+====
 
-This is Bruno's version of 4text, the official imageboard for Spooks.
+The official imageboard of the Spooky community.
 
-Please note the version here may not be the same as the version in the site.
+In order to run a local version, you'll need:
 
-All changes to the source code must be made through here.
+&nbsp; &nbsp; ─ A working web server
 
+&nbsp; &nbsp; ─ PHP 5
 
-See you around.
+&nbsp; &nbsp; ─ Read/write permissions
+
+&nbsp; &nbsp; ─ The files in the repository
+
+&nbsp; &nbsp; ─ To fix the links and the rewrite rules, if necessary
+
+This project is licensed under the GNU GPL v3.0.
