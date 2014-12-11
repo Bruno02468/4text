@@ -42,7 +42,7 @@ for ($i = 0; $i < count($file); $i++) {
     $cont = format($ans[1]);
     if ($ans[2] !== "")
         $ansi = "File: <a target='_blank' href='" . $ans[2] . "'>" . basename($ans[2]) . "<br><img style='float: left;' src='" . $ans[2] . "' class=\"image\"></a>";
-    $answers .= "<div class='post' id='p" . $ans[0] . "'>" . $ansi . "<div><b>Anon - </b><small>" . $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . $cont . "</div></div></div>";
+    $answers .= "<br><div class='post' id='p" . $ans[0] . "'>" . $ansi . "<div><b>Anon - </b><small>" . $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . $cont . "</div></div></div>";
 }
 
 ?>
