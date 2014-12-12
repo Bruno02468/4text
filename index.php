@@ -51,7 +51,7 @@ for ($i = 0; ($i <= 9 && $i < count($arrDIR)); $i++) {
         $cont = format($ans[1]);
         if ($ans[2] !== "")
             $ansi = "File: <a target='_blank' href='" . $ans[2] . "'>" . basename($ans[2]) . "<br><img style='float: left;' src='" . $ans[2] . "' class=\"image\"></a>";
-        $a = "<div class='post'>" . $ansi . "<div><b>Anon - </b><small>" . $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . $cont . "</div></div></div>" . $a;
+        $a = "<br><div class='post'>" . $ansi . "<div><b>Anon - </b><small>" . $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . $cont . "</div></div></div>" . $a;
         $c--;
     }
 
