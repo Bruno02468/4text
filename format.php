@@ -23,7 +23,8 @@ function format($str) {
 
     $str = preg_replace($threadlinks, $threadrepls, $str);
     $str = preg_replace($postlinks, $postrepls, $str);
-    $str = preg_replace($greentext, $greenrepl, $str . "<br>");
+    $str = preg_replace($greentext, $greenrepl, "<br>" . $str . "<br>");
+    $str = substr($str, 4);
 
     return $str;
 }
