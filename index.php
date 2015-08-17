@@ -34,13 +34,18 @@ for ($i = 0; ($i <= 9 && $i < count($arrDIR)); $i++) {
     $array = explode("<>", $file[0]);
     $img = "";
     if ($array[2] !== "") {
-        $img = "<a href='" . $array[2] . "' target='_blank'><img style=\"float: left; width: 300px; padding-right: 20px; height: auto; vertical-align: top;\" src='" . $array[2] . "'></a>";
+        $img = "<a href='" . $array[2] . "' target='_blank'><img style=\"float: left; width: 300px;" . 
+               "padding-right: 20px; height: auto; vertical-align: top;\" src='" . $array[2] . "'></a>";
     }
     $title = "Anon - "; 
     $contents = format($array[1]);
     $date = $array[3];
     
-    $post = "<hr><div class='op'>" .  $img . "<div><b>" .  $title . "</b>       <small>" . $date . " No. " .  $id . " <a href='http://bruno02468.com/4text/bread/" . $id . "'>[Reply]</a> - has " . $answers . " replies</small><br><br>" . $contents . "<br><br></div></div>";
+    $post = "<hr><div class='op'>" .  $img . "<div><b>" .  $title . 
+            "</b>       <small>" . $date . " No. " .  $id . 
+            " <a href='http://bruno02468.com/4text/bread/" . $id . 
+            "'>[Reply]</a> - has " . $answers . " replies</small><br><br>" . 
+            $contents . "<br><br></div></div>";
     $a = "";
     $c = 3;
     for ($j = $answers; $j > 0; $j--) {
@@ -50,8 +55,13 @@ for ($i = 0; ($i <= 9 && $i < count($arrDIR)); $i++) {
         $ansi = "";
         $cont = format($ans[1]);
         if ($ans[2] !== "")
-            $ansi = "File: <a target='_blank' href='" . $ans[2] . "'>" . basename($ans[2]) . "<br><img style='float: left;' src='" . $ans[2] . "' class=\"image\"></a>";
-        $a = "<br><div class='post'>" . $ansi . "<div><b>Anon - </b><small>" . $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . $cont . "</div></div></div>" . $a;
+            $ansi = "File: <a target='_blank' href='" . $ans[2] . "'>" . 
+                     basename($ans[2]) . "<br><img style='float: left;' src='" . 
+                     $ans[2] . "' class=\"image\"></a>";
+        $a = "<br><div class='post'>" . $ansi . "<div><b>Anon - </b><small>" . 
+               $ans[3] . " No. <a href='javascript: reply(" . $ans[0]  . ");'>" . 
+               $ans[0] . "</a></small><span style='position: relative; left: 20px;'><br><br>" . 
+               $cont . "</div></div></div>" . $a;
         $c--;
     }
 
